@@ -13,3 +13,5 @@
 <code>docker stop</code>: Esse comando é usado para <b>interromper a execução</b> de um contêiner em execução. Você precisa especificar o ID ou o nome do contêiner que deseja parar. Por exemplo, para parar um contêiner com o ID "cont_teste", você pode usar o comando <code>docker stop cont_teste</code>.
 <br><br>
 <code>docker rm</code>: Esse comando é usado para <b>remover um contêiner que não está em execução</b>. Você precisa especificar o ID ou o nome do contêiner que deseja remover. Por exemplo, para remover um contêiner com o ID "cont_teste", você pode usar o comando <code>docker rm cont_teste</code>.
+<br><br>
+<code>docker rmi</code>: Esse comando é usado para <b>remover uma imagem de contêiner do seu sistema local</b>. Você precisa especificar o ID ou o nome da imagem que deseja remover. Por exemplo, para remover uma imagem com o ID "cont_teste", você pode usar o comando docker rmi cont_teste.
