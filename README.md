@@ -1,6 +1,6 @@
 # Principais Comandos Docker
 
-## A revolução da programação simplificada, como o Docker pode transformar sua experiência de desenvolvimento e impulsionar seus projetos!
+### A revolução da programação simplificada, como o Docker pode transformar sua experiência de desenvolvimento e impulsionar seus projetos!
 
 <code>docker run</code>: Esse comando é usado para <b>executar um contêiner</b>. Ele baixa a imagem do contêiner do registro público do Docker, se ela ainda não estiver presente localmente, e inicia a execução. Por exemplo, para executar um contêiner do Ubuntu, você pode usar o comando <code>docker run ubuntu</code>.
 <br><br>
@@ -15,3 +15,5 @@
 <code>docker rm</code>: Esse comando é usado para <b>remover um contêiner que não está em execução</b>. Você precisa especificar o ID ou o nome do contêiner que deseja remover. Por exemplo, para remover um contêiner com o ID "cont_teste", você pode usar o comando <code>docker rm cont_teste</code>.
 <br><br>
 <code>docker rmi</code>: Esse comando é usado para <b>remover uma imagem de contêiner do seu sistema local</b>. Você precisa especificar o ID ou o nome da imagem que deseja remover. Por exemplo, para remover uma imagem com o ID "cont_teste", você pode usar o comando docker rmi cont_teste.
+<br><br>
+<code>docker exec</code>: Esse comando é usado para <b>executar um comando dentro de um contêiner em execução</b>. Você precisa especificar o ID ou o nome do contêiner e o comando que deseja executar. Por exemplo, para executar o comando "<code>ls</code>" dentro de um contêiner com o ID "cont_teste", você pode usar o comando <code>docker exec cont_teste ls</code>.
