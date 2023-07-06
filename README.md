@@ -7,3 +7,5 @@
 <code>docker pull</code>: Esse comando é usado para baixar uma imagem do registro público do Docker para o seu sistema local, sem executá-la. Por exemplo, para baixar a imagem do Ubuntu, você pode usar o comando <code>docker pull ubuntu</code>.
 <br><br>
 <code>docker images</code>: Esse comando lista todas as imagens de contêineres que você tem armazenadas localmente no seu sistema. Ele exibe informações como o nome da imagem, o ID da imagem e o tamanho.
+<br><br>
+<code>docker ps</code>: Esse comando lista todos os contêineres em execução no momento. Ele exibe informações como o ID do contêiner, o nome do contêiner e o status de execução.
